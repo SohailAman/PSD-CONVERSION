@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD Conversion</title>
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="shortcut icon" href="./assets/images/favIcon.png">
+    <!-- Bootstrap CSS Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ac5c58246a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Hero Sec Start -->
+    <section class="hero-sec px-lg-5 px-md-4 px-sm-2 px-3 pb-5" id="Hero">
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light py-5 px-0">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand p-0" href="#">
+                    <img src="./assets/images/logo.png" width="100%" alt="logo">
+                </a>
+                <!-- Sm screen btns -->
+                <div class="smBtns ms-auto d-flex">
+                    <!-- Md Show -->
+                    <button class="nav-btn mx-4 md-show">BUY NOW</button>
+                    <!-- Offcanvas Toggler -->
+                    <button class="humberger-menu bg-transparent outline-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-controls="offcanvasScrolling">
+                    <span class="menutrigger text-white">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </span>
+                    </button>
+                </div>
+                <!--Lg Screen Links -->
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Blocks</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="nav-btn ms-4 sm-lg-butn">BUY NOW</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Offcanvas-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-bs-scroll="true">
+            <div class="offcanvas-header py-0">
+                <button type="button" class="btn-close text-reset ms-auto h5 me-4 mt-4 mb-0 pb-0" style="color: #1f1f25 !important;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body pt-0 ps-2">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" href="#">Blocks</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-4 mt-1">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Offcanvas End -->
+
+        <!-- Hero Container -->
+        <div class="hero-container mt-lg-4 mt-md-2">
+            <div class="row mx-0">
+                <div class="col-lg-12 my-lg-4 my-md-2">
+                    <div class="inner">
+                        <h1 class="title theme-gradient">A digital <br> agency. </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="service-wrapper  pb-lg-5 mb-lg-5">
+                <div class="row mx-0 mt-3 px-2">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 px-2 py-3">
+                        <div class="service">
+                            <div class="icon">
+                                <img src="/assets/images/HeroIcon/icon-01.png" alt="Digital Agency">
+                            </div>
+                            <div class="content mt-4">
+                                <h4 class="title my-3">Business Stratagy</h4>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 px-2 py-3">
+                        <div class="service">
+                            <div class="icon">
+                                <img src="/assets/images/HeroIcon/icon-02.png" alt="Digital Agency">
+                            </div>
+                            <div class="content mt-4">
+                                <h4 class="title my-3">Website Development</h4>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 px-2 py-3">
+                        <div class="service">
+                            <div class="icon">
+                                <img src="/assets/images/HeroIcon/icon-03.png" alt="Digital Agency">
+                            </div>
+                            <div class="content mt-4">
+                                <h4 class="title my-3">Marketing & Reporting</h4>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Sec Ends -->
+
+    <!-- About Sec Start -->
+    <section class="about-sec px-lg-5 px-md-4 px-sm-2 px-3 my-5 pb-lg-5 pb-md-2">
+        <div class="row mx-0 d-flex align-items-center justify-content-between">
+            <div class="col-lg-5 col-md-10">
+                <div class="about-img">
+                    <img src="./assets/images/about-1.jpg" width="98%" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-10 ms-lg-auto mt-4">
+                <div class="inner-txt mx-3">
+                    <div class="row mx-0 top-cont">
+                        <div class="col-12 p-0 mb-lg-4 mb-md-3">
+                            <h1 class="ab-title mb-lg-3 mb-md-2 mb-sm-1">About</h1>
+                            <p class="ab-des">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-10 px-0 p-2">
+                            <h5 class="as-subTitle mb-lg-4 mb-md-2">Who we are</h5>
+                            <p class="ab-des">
+                                There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-10 px-0 p-2">
+                            <h5 class="as-subTitle mb-lg-4 mb-md-2">Who we are</h5>
+                            <p class="ab-des">
+                                There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Sec End -->
+
+    <!-- Service Sec Start -->
+    <section class="service-sec py-5 px-lg-5 px-md-4 px-sm-2 px-3 my-5 pb-lg-5 pb-md-2">
+        <div class="row mx-0 d-flex align-items-start py-5">
+            <div class="col-lg-4 col-md-10 px-sm-4 mb-4">
+                <h1 class="ser-head">Services</h1>
+                <p class="ser-para">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                </p>
+                <a href="#" class="bor-bot border-0 bg-transparent px-0">
+                    <span class="txt position-relative">
+                        Request Custom Service
+                    <div class="under"></div>
+                    </span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="card-cont">
+                    <div class="row mx-0">
+                        <div class="col-lg-6 col-md-6 col-sm-12 service-card py-lg-5 py-md-3 py-sm-3 px-lg-5 px-md-4 px-sm-2 my-lg-3">
+                            <div class="card-inner mx-lg-4">
+                                <div class="icon">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
+                                </div>
+                                <h3 class="card-title">
+                                    Business Stratagy
+                                </h3>
+                                <p class="card-cap">
+                                    I throw myself down among the tall grass by the stream as I lie close to the earth
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 service-card py-lg-5 py-md-3 py-sm-3 px-lg-5 px-md-4 px-sm-2 my-lg-3">
+                            <div class="card-inner mx-lg-4">
+                                <div class="icon">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                </div>
+                                <h3 class="card-title">
+                                    Website Development
+                                </h3>
+                                <p class="card-cap">
+                                    I throw myself down among the tall grass by the stream as I lie close to the earth
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 service-card py-lg-5 py-md-3 py-sm-3 px-lg-5 px-md-4 px-sm-2 my-lg-3">
+                            <div class="card-inner mx-lg-4">
+                                <div class="icon">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                </div>
+                                <h3 class="card-title">
+                                    Marketing & Reporting
+                                </h3>
+                                <p class="card-cap">
+                                    I throw myself down among the tall grass by the stream as I lie close to the earth
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 service-card py-lg-5 py-md-3 py-sm-3 px-lg-5 px-md-4 px-sm-2 my-lg-3">
+                            <div class="card-inner mx-lg-4">
+                                <div class="icon">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                </div>
+                                <h3 class="card-title">
+                                    Mobile App Development
+                                </h3>
+                                <p class="card-cap">
+                                    I throw myself down among the tall grass by the stream as I lie close to the earth
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Sec End -->
+
+    <!-- Work Sec Start -->
+    <section class="work-sec py-5">
+        <div class="work-txt row mx-0 px-lg-5 px-md-4 px-sm-2">
+            <div class="col-lg-6 col-md-10">
+                <h1 class="work-head mb-1">Our Works</h1>
+                <p class="work-para">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                </p>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper my-5">
+            <div class="mySwiper position-relative">
+                <div class="swiper-wrapper d-flex align-items-center">
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-1.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-2.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-4.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-1.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-2.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide position-relative">
+                        <img src="./assets/images/portfolio/portfolio-4.jpg" class="port-img" height="100%" width="100%" alt="">
+                        <div class="swi-cont px-4 mx-3">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-swiper nav-btn px-4 py-2 bg-transparent mt-3">
+                                     CASE STUDY
+                                 </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination d-flex align-items-center
+            justify-content-center"></div>
+        </div>
+    </section>
+    <!-- Work Sec End -->
+
+    <!-- Fact Sec Start -->
+    <section class="fact-sec text-center px-lg-5 px-md-4 px-sm-2 py-5">
+        <div class="fact-text">
+            <h1 class="fact-heading">
+                Our Fun Facts
+            </h1>
+        </div>
+        <div class="row mx-0 py-5">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <h1 class="num position-relative">199</h1>
+                <p class="par">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <h1 class="num position-relative">575</h1>
+                <p class="par">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <h1 class="num position-relative">69</h1>
+                <p class="par">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Fact Sec End -->
+
+    <!-- Testimonials Sec Start -->
+    <section class="test-sec text-center px-lg-5 px-md-4 px-sm-2 py-5 position-relative">
+        <div class="row mx-0 py-5">
+            <div class="test-des col-lg-11 col-sm-11 mx-auto mb-lg-3 mb-md-2">
+                <h1 class="des-per show" id="test1">
+                    Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test2">
+                    Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test3">
+                    Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test4">
+                    Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test5">
+                    John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test6">
+                    Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test7">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+                <h1 class="des-per hide" id="test8">
+                    Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.
+                </h1>
+            </div>
+            <div class="dets mt-lg-5 mt-4">
+                <p class="per-dets show" id="dets1">
+                    AKLIMA - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets2">
+                    FATIMA ASRAFY - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets3">
+                    JANNAT TUMPA- COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets4">
+                    JOHNS DUE - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets5">
+                    JOHN DOE - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets6">
+                    AMAR ORTHI - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets7">
+                    FATIMA MA - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+                <p class="per-dets hide" id="dets8">
+                    JON CUMMINS - COO, AMERIMAR ENTERPRISES, INC.
+                </p>
+            </div>
+        </div>
+        <div class="row mx-0">
+            <div class="col-lg-5 col-sm-10 mx-auto">
+                <div class="testo-imgs">
+                    <div class="row mx-0 d-flex align-items-center justify-content-center">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-lg-3 mx-lg-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-1.jpg" width="100%" alt="" id="pic1">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-lg-3 mx-lg-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-2.jpg" width="100%" alt="" id="pic2">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-lg-3 mx-lg-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-3.jpg" width="100%" alt="" id="pic3">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-lg-3 mx-lg-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-4.jpg" width="100%" alt="" id="pic4">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-3 mx-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-5.jpg" width="100%" alt="" id="pic5">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-3 mx-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-6.jpg" width="100%" alt="" id="pic6">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-3 mx-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-7.jpg" width="100%" alt="" id="pic7">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-3 my-3 mx-2 hovImg">
+                            <img src="./assets/images/testimonials/testimonial-8.jpg" width="100%" alt="" id="pic8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Sec End -->
+
+    <!-- Blog Sec Start -->
+    <section class="blog-sec px-lg-5 px-md-4 px-sm-2 py-5 my-lg-5">
+        <div class="blog-inn px-2">
+            <h1 class="blog-head">Latest News</h1>
+            <div class="desc row mx-0 d-flex align-items-end justify-content-between">
+                <div class="col-lg-6 col-md-10 ps-0">
+                    <p class="des-txt">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-10 px-0">
+                    <a href="#" class="bor-bot border-0 bg-transparent px-0">
+                        <span class="txt position-relative">
+                            View All blog
+                        <div class="under"></div>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mx-0 my-5">
+            <div class="col-lg-4 col-md-6 col-sm-10 blog-card my-3 d-flex align-items-center justify-content-center">
+                <div class="inner-cont">
+                    <div>
+                        <a href="#" class="blog-img">
+                            <img src="./assets/images/blog/blog-01.jpg" height="100%" width="100%" alt="">
+                        </a>
+                        <div class="tran px-5">
+                            <h6 class="top-txt mb-3">
+                                Development
+                            </h6>
+                            <h1 class="text-white mb-2">
+                                Getting tickets to the big show
+                            </h1>
+                            <button class="Btn-blog nav-btn px-4 py-2 bg-transparent mt-5">
+                                READ MORE
+                           </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10 blog-card my-3 d-flex align-items-center justify-content-center">
+                <div class="inner-cont">
+                    <div>
+                        <a href="#" class="blog-img">
+                            <img src="./assets/images/blog/blog-02.jpg" height="100%" width="100%" alt="">
+                        </a>
+                        <div class="tran px-5">
+                            <h6 class="top-txt mb-3">
+                                Management
+                            </h6>
+                            <h1 class="text-white mb-2">
+                                A big ticket gone to be an interesting
+                            </h1>
+                            <button class="Btn-blog nav-btn px-4 py-2 bg-transparent mt-5">
+                                READ MORE
+                           </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10 blog-card my-3 d-flex align-items-center justify-content-center">
+                <div class="inner-cont">
+                    <div>
+                        <a href="#" class="blog-img">
+                            <img src="./assets/images/blog/blog-03.jpg" height="100%" width="100%" alt="">
+                        </a>
+                        <div class="tran px-5">
+                            <h6 class="top-txt mb-3">
+                                Design
+                            </h6>
+                            <h1 class="text-white mb-2">
+                                The Home of the Future Could Bebes
+                            </h1>
+                            <button class="Btn-blog nav-btn px-4 py-2 bg-transparent mt-5">
+                                READ MORE
+                           </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Sec End -->
+
+    <!-- Brand Sec Start -->
+    <section class="brand-sec px-lg-5 px-md-4 px-sm-2 pb-5 my-lg-5">
+        <div class="row mx-0 d-flex align-items-center justify-content-between img-cont pb-lg-5 mb-lg-5">
+            <div class="col-12 mb-lg-5">
+                <ul class="brand-style-2">
+                    <li>
+                        <img src="./assets/images/brands/brand-01.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-02.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-03.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-04.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-05.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-06.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-01.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-02.png" class="brand-img" width="60%" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/images/brands/brand-03.png" class="brand-img" width="60%" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Sec End -->
+
+    <!-- Footer Sec Start -->
+    <footer class="footer mt-lg-5">
+        <div class="footer-wrap">
+            <div class="row mx-0 px-0 d-flex justify-content-center">
+                <div class="col-lg-6 py-lg-5 pattern-bg p-5">
+                    <div class="left-footer d-flex align-items-center justify-content-center">
+                        <div class="content my-lg-4 py-5">
+                            <p>READY TO DO THIS</p>
+                            <h1>
+                                Let's get <br> to work
+                            </h1>
+                            <button class="btn-footer mt-5">CONTECT US</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 right-footer pt-lg-3 p-5">
+                    <div class="row mx-0 px-lg-5 px-md-3 px-sm-2 pt-lg-5">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-lg-4 py-2 pt-lg-4">
+                            <div class="footer-link">
+                                <h4 class="mb-4 pt-3">Quick Link</h4>
+                                <ul class="ft-link m-0 p-0 pb-1">
+                                    <li class="mb-3"><a href="#">Work</a></li>
+                                    <li class="mb-3"><a href="#">About</a></li>
+                                    <li class="mb-3"><a href="#">Let's Talk</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mt-lg-4 py-2 pt-lg-4">
+                            <div class="footer-link">
+                                <h4 class="mb-4 pt-3">Say Hello</h4>
+                                <ul class="ft-link m-0 p-0 pb-1">
+                                    <li class="mb-3">
+                                        <a href="mailto:admin@example.com">admin@example.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:hr@example.com">hr@example.com</a>
+                                    </li>
+                                </ul>
+                                <div class="social-share-inner">
+                                    <ul class="social-share social-style--2 d-flex align-items-center liststyle mt-4 ps-0 ms-0 pe-5">
+                                        <li class="icon-foot me-4">
+                                            <a href="#" class="icon-socio">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="icon-foot me-4">
+                                            <a href="#" class="icon-socio">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="icon-foot me-4">
+                                            <a href="#" class="icon-socio">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                        </svg>
+                                            </a>
+                                        </li>
+                                        <li class="icon-foot me-4">
+                                            <a href="#" class="icon-socio"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                            </svg>
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt-5 mt-5">
+                            <div class="copyright-text">
+                                <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Sec End -->
+
+
+
+    <!-- back to top -->
+    <a href="#Hero">
+        <div class="backto-top" id="backto-top">
+            <div class="topInner">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </div>
+        </div>
+    </a>
+
+
+
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
